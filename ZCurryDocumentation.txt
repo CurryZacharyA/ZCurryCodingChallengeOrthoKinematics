@@ -1,0 +1,36 @@
+UserName: ABCD
+Password: 1234
+
+• 3rd party applications need to be authenticated before they call the method.
+---I wasn't sure what is meant by this. I made up a quick Authentication page using
+	a session variable for authentication. AWS is the only 3rd party thing I used.
+	A user can't copy and paste the url to the main code challenge page without
+	having logged in with the right credentials.
+
+• Try not to use helper methods for string manipulation, try to write your own algorithms
+---I wasn't sure what is meant by a helper method. I tried my best to use this simplest
+	methods and few extensions of methods. I could've used a RegularExpression or "helpermethod"
+	to search through the strings, but I used a switch instead.
+
+• Include documentation on how to call your api
+---I've uploaded it to a running AWS instance. The ASP pages can be hosted on any kind of server.
+	I've used AWS in school but Microsoft Azure or a Linux based server would work just as
+	well. Options are not limited to what I've listed. In my case, enter the url or have a link
+	to the url, enter the correct credentials to access.
+
+• Include test cases and the results in your solution
+
+Input
+The quick brown fox jumps over the lazy dog.
+Output
+T1e q3k b3n f1x j3s o2r t1e l2y d1g.
+
+Input
+Hello, my name is Zach---xx
+Output
+H2o, my n2e is Z2h---xx
+
+Input
+attended/assassin%woodwork     needless=bookshop
+Output
+a4d/a3n%w4k     n4s=b4p
